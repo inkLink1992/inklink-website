@@ -1,0 +1,198 @@
+.appsview {
+  max-width: 100%; /* Scales the image relative to its container */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes inline spacing */
+}
+
+.img-container {
+  margin-top: 20px;
+  padding: 40px;
+  margin: 0 auto;
+  width: 1024px;
+  vertical-align: middle;
+}
+
+.text {
+  color: #e5611e;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.text2 {
+  color: #616161;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.love {
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+}
+.infinity {
+  height: 24px;
+  margin-left: 3px;
+}
+
+.social {
+  width: 250px;
+}
+
+@media (max-width: 1366px) {
+  .text {
+    color: #e5611e;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .text2 {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .love {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+  }
+  .infinity {
+    height: 28px;
+    margin-left: 3px;
+  }
+
+  .social {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .img-container {
+    width: 1024px;
+  }
+
+  .text {
+    color: #e5611e;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .text2 {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .love {
+    height: 16px;
+    width: 16px;
+    margin-right: 3px;
+  }
+  .infinity {
+    height: 24px;
+    margin-left: 3px;
+  }
+
+  .social {
+    width: 250px;
+  }
+}
+
+/* Media query for mobile view */
+@media (max-width: 1024px) {
+  .img-container {
+    width: 768px;
+  }
+  .text {
+    color: #e5611e;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .text2 {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .love {
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+  }
+  .infinity {
+    width: 28px;
+    height: 28px;
+    margin-left: 3px;
+  }
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .img-container {
+    margin-top: 10px;
+    padding: 40px;
+    margin: 0 auto;
+    width: 360px;
+    vertical-align: middle;
+  }
+  .text2 {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .love {
+    height: 16px;
+    width: 14px;
+    margin-right: 2px;
+    margin-left: 1px;
+  }
+  .infinity {
+    height: 21px;
+    margin-left: 3px;
+  }
+}
